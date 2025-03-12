@@ -1,0 +1,8 @@
+{
+    "loginIcon": "//button[contains(@class, 'mantine-UnstyledButton-root')]",
+    "emailInput": "//input[@id='signInName']",
+    "passwordInput": "//input[@id='password']",
+    "signInButton": "button:has-text('Sign in')",
+    "bookDemoButton": "//*[@type='button' and normalize-space()='Book a Demo']"
+  }
+  

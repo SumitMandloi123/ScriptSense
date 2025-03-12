@@ -1,0 +1,28 @@
+{
+  "name": "scriptsense",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SumitMandloi123/ScriptSense.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SumitMandloi123/ScriptSense/issues"
+  },
+  "homepage": "https://github.com/SumitMandloi123/ScriptSense#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/dotenv": "^6.1.1",
+    "@types/node": "^22.13.10",
+    "@types/nodemailer": "^6.4.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "typescript": "^5.8.2"
+  }
+}

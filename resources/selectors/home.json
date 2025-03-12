@@ -1,0 +1,16 @@
+{
+    "dispenseButton": "//a[normalize-space()='Dispense']",
+    "toggleButton": "//label[text()='Use Print Utility']",
+    "tabNHI": "role=tab[name='By NHI']",
+    "inputFieldNHI": "role=combobox[name='Search for patient']",
+    "searchButton": "role=button[name='Search']",
+    "patientOption": "//*[contains(text(), '(ZAU8023) John Lee 01/01/2001 (unknown)')]",
+    "manualDispenseButton": "//a[@data-cy='scripts-add-new-scid']",
+    "internalTab": "//body/div[@id='root']/div[contains(@class, 'mantine-Skeleton-root')]",
+    "searchPrescriberPlaceholder": "//*[text()='Search for prescriber']//parent::div//input",
+    "doctorName": "//div[contains(text(), '(94ZAHG) Jayne Valerie John')]",
+    "medicinePlaceholder": "//div[contains(@class,'mantine-Grid-col mantine-cpt84w')]//input",
+    "medicineSelect": "//div[contains(text(),'Teriparatide-Teva (teriparatide 20 microgram/dose)')]",
+    "endDispense": "//div[contains(@style,'max-height: 80vh; overflow-y: auto; scrollbar-width: none;')]/button[3]",
+    "notesButton": "//span[normalize-space()='Notes']"
+  }
