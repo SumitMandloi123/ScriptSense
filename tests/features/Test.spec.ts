@@ -19,6 +19,7 @@ test.describe.serial("CreateDispense", () => {
     }); 
 
     test("Login to the application", async () => {
+        console.log("Login to the Application")
         await loginPage.navigateToWebsite();
         await loginPage.login(process.env.LOGIN_USERNAME!, process.env.LOGIN_PASSWORD!);
         
@@ -28,6 +29,7 @@ test.describe.serial("CreateDispense", () => {
     });
 
     test("Create a new manual dispense", async () => {
+        console.log("Creating a manual Dispense")
         await homePage.disablePrintUtility();
         await homePage.clickDispense();
         await homePage.searchPatient("ZAU8023");
