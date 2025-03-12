@@ -46,6 +46,7 @@ export default class HomePage {
     
         // Click "Internal" tab
         await this.page.locator(this.selectors.internalTab).click();
+        console.log("xyz");
     
         // Type and select prescriber name
         const prescriberInput = this.page.locator(this.selectors.searchPrescriberPlaceholder);
